@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="vendor/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/actum.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
+    <link rel="stylesheet" type="text/css" href="vendor/fonts/Georgia/stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="vendor/fonts/gotham-cufonfonts-webfont/style.css">
+    <link rel="stylesheet" href="assets/css/nav.css">
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/slick-theme.css">
+    <title> Actum </title>
+</head>
+
+<body>
+<header class="site-header nav-wrapper sticky-nav">
+    <nav class="nav nav-header">
+        <button class="toggle-nav" type="button">
+            <div class="burger -squeeze -offset" type="button">
+                <span class="burger-lines"></span>
+            </div>
+        </button>
+        <div class="header-right col-3">
+            <a class="header-right__logo--link logo-link" href="#">
+                <img class="logo" src="http://satyr.io/100x70/" alt="Logo">
+            </a>
+        </div>
+        <ul class="header-center nav-list col-6" role="navigation">
+            <div class="list -left">
+                <li class="item">
+                    <a class="link" href="#" data-i18n="home">Home</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="#" data-i18n="about">About</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="#" data-i18n="products">Products</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="#" data-i18n="service">Service</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="#" data-i18n="contact">Contact</a>
+                </li>
+            </div>
+            <div class="list -right">
+                <div class="overlay"></div>
+            </div>
+        </ul>
+        <div class="header-left col-3">
+            <button class="header-left__btn btn--cz" onclick="i18next.changeLanguage('cs')">
+                CZ
+            </button>
+            <button class="header-left__btn btn--en" onclick="i18next.changeLanguage('en')">
+                EN
+            </button>
+            <form class="js-header-left-click header-left__search" method="get" action="#">
+                <input type="search" placeholder="Search!" name="search">
+            </form>
+        </div>
+    </nav>
+</header>
+<div class="page__content">
+    <h1 class="section-content home-page-header blogspot-title" data-i18n="blogspot-title">Our Blog</h1>
+    <section id="blogspot-section" class="section-content blogspot">
+        <div class="col-4 column">
+            <div class="blogspot-card">
+                <div class="blogspot-card__item">
+                    <img class="poster" src="http://satyr.io/300x200/"/>
+                    <h2 class="blogspot-card__h2">Back to Nature</h2>
+                    <p class="blogspot-card__text post-description">Down on the West Coast where the sand meets the
+                        crashing waves and your dreams come true.</p>
+                    <p class="blogspot-card__detail post-detail">Down on the West Coast where the sand meets the
+                        crashing waves and your dreams come true. Down on the West Coast where the sand meets the
+                        crashing waves and your dreams come true.Down on the West Coast where the sand meets the
+                        crashing waves and your dreams come true.Down on the West Coast where the sand meets the
+                        crashing waves and your dreams come true.</p>
+                    <div class="blogspot__button-list post-buttons">
+                        <a href="#" class="button-list--item"><img class="btn" src="heart.svg" alt="Heart">485</a>
+                        <a href="#" class="button-list--item"><img class="btn" src="chat.svg" alt="Heart">167</a>
+                        <a href="#" class="button-list--item last-button"><img class="btn" src="clock.svg" alt="Heart">16h</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-4 column">
+            <div class="blogspot-card">
+                <div class="blogspot-card__item">
+                    <img class="poster" src="http://satyr.io/300x200/"/>
+                    <h2 class="blogspot-card__h2">Spring Collection</h2>
+                    <p class="blogspot-card__text post-description">So here are my Ski Week essentials.</p>
+                    <p class="blogspot-card__detail post-detail">Maecenas ut leo iaculis, lobortis ligula et, imperdiet
+                        lectus. Praesent lectus odio, euismod vel bibendum et, rutrum a lectus. Nullam vel fringilla
+                        ipsum. Pellentesque tincidunt sagittis mauris non hendrerit. Donec nisl ligula, interdum ut odio
+                        ut, porta convallis ipsum. Suspendisse vitae nulla vel mi semper mattis in quis arcu. </p>
+                    <div class="blogspot__button-list post-buttons">
+                        <a href="#" class="button-list--item"><img class="btn" src="heart.svg" alt="Heart">485</a>
+                        <a href="#" class="button-list--item"><img class="btn" src="chat.svg" alt="Heart">167</a>
+                        <a href="#" class="button-list--item last-button"><img class="btn" src="clock.svg" alt="Heart">16h</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-4 column">
+            <div class="blogspot-card">
+                <div class="blogspot-card__item">
+                    <img class="poster" src="http://satyr.io/300x200/"/>
+                    <h2 class="blogspot-card__h2">Amour is in the air.</h2>
+                    <p class="blogspot-card__text post-description">Amour is in the air.</p>
+                    <p class="blogspot-card__detail post-detail">Duis congue lectus ut rhoncus ultricies. Sed quam
+                        metus, elementum at sem fermentum, molestie auctor urna. Pellentesque sem tellus, maximus sed
+                        dolor ut, lacinia sagittis ante. Nunc suscipit, nunc eget cursus vestibulum, mi magna hendrerit
+                        tellus, ut ultrices turpis risus id libero.</p>
+                    <div class="blogspot__button-list post-buttons">
+                        <a href="#" class="button-list--item"><img class="btn" src="heart.svg" alt="Heart">485</a>
+                        <a href="#" class="button-list--item"><img class="btn" src="chat.svg" alt="Heart">167</a>
+                        <a href="#" class="button-list--item last-button"><img class="btn" src="clock.svg" alt="Heart">16h</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-4 column">
+            <div class="blogspot-card">
+                <div class="blogspot-card__item">
+                    <img class="poster" src="http://satyr.io/300x200/"/>
+                    <h2 class="blogspot-card__h2">Lorem Ipsum</h2>
+                    <p class="blogspot-card__text post-description">Maecenas ut leo iaculis, lobortis ligula et,
+                        imperdiet lectus. </p>
+                    <p class="blogspot-card__detail post-detail">Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit. Praesent venenatis tellus maximus dolor elementum aliquet. Pellentesque habitant morbi
+                        tristique senectus et netus et malesuada fames ac turpis egestas. Sed et venenatis massa. Nam ac
+                        ipsum ac ante convallis viverra.</p>
+                    <div class="blogspot__button-list post-buttons">
+                        <a href="#" class="button-list--item"><img class="btn" src="heart.svg" alt="Heart">485</a>
+                        <a href="#" class="button-list--item"><img class="btn" src="chat.svg" alt="Heart">167</a>
+                        <a href="#" class="button-list--item last-button"><img class="btn" src="clock.svg" alt="Heart">16h</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-4 column">
+            <div class="blogspot-card">
+                <div class="blogspot-card__item">
+                    <img class="poster" src="http://satyr.io/300x200/"/>
+                    <h2 class="blogspot-card__h2">Need a lift?</h2>
+                    <p class="blogspot-card__text post-description">Vestibulum a arcu sit amet leo imperdiet interdum et
+                        et augue..</p>
+                    <p class="blogspot-card__detail post-detail">Nunc dapibus facilisis sapien, vel sagittis neque
+                        lacinia ac. Quisque eros eros, iaculis sit amet ipsum at, euismod commodo ipsum.</p>
+                    <div class="blogspot__button-list post-buttons">
+                        <a href="#" class="button-list--item"><img class="btn" src="heart.svg" alt="Heart">485</a>
+                        <a href="#" class="button-list--item"><img class="btn" src="chat.svg" alt="Heart">167</a>
+                        <a href="#" class="button-list--item last-button"><img class="btn" src="clock.svg" alt="Heart">16h</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-4 column">
+            <div class="blogspot-card">
+                <div class="blogspot-card__item">
+                    <img class="poster" src="http://satyr.io/300x200/"/>
+                    <h2 class="blogspot-card__h2">Lady pink</h2>
+                    <p class="blogspot-card__text post-description">Vestibulum aliquam lectus nec lorem semper, et
+                        commodo tellus tincidunt.</p>
+                    <p class="blogspot-card__detail post-detail">Nam in blandit est, nec condimentum velit. Vestibulum
+                        nec tellus sed lorem condimentum aliquam. Curabitur ac ornare urna, eget aliquam arcu. Praesent
+                        quis leo vel magna vestibulum varius. Maecenas laoreet non neque sit amet suscipit. Pellentesque
+                        quam dolor, imperdiet vel ultrices vitae, ornare nec nibh. Donec semper, mi quis consectetur
+                        vulputate, nisl leo efficitur ex, fringilla .</p>
+                    <div class="blogspot__button-list post-buttons">
+                        <a href="#" class="button-list--item"><img class="btn" src="heart.svg" alt="Heart">485</a>
+                        <a href="#" class="button-list--item"><img class="btn" src="chat.svg" alt="Heart">167</a>
+                        <a href="#" class="button-list--item last-button"><img class="btn" src="clock.svg" alt="Heart">16h</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+<footer class="footer-distributed">
+    <div class="site-footer">
+        <div class="footer-left col-3">
+            <a class="footer-left__logo--link logo-link" href="#">
+                <img class="logo" id="logo" src="http://satyr.io/100x70/" alt="Logo">
+            </a>
+        </div>
+        <div class="footer-center col-6">
+            <ul class="nav-list-footer" role="navigation">
+                <div class="list -left">
+                    <li class="item">
+                        <a class="link" href="#" data-i18n="home">Home</a>
+                    </li>
+                    <li class="item">
+                        <a class="link" href="#" data-i18n="about">About</a>
+                    </li>
+                    <li class="item">
+                        <a class="link" href="#" data-i18n="products">Products</a>
+                    </li>
+                    <li class="item">
+                        <a class="link" href="#" data-i18n="service">Service</a>
+                    </li>
+                    <li class="item">
+                        <a class="link" href="#" data-i18n="contact">Contact</a>
+                    </li>
+                </div>
+            </ul>
+        </div>
+
+        <div class="footer-right col-3">
+            <div class="footer-right__contact">
+                <div class="contact__heading">
+                    <p class="contact__heading--title" data-i18n="subcribe-descript">Subcribe to our newsletter</p>
+                </div>
+                <div class="contact__form">
+                    <form method="post" class="contact__form-input">
+                        <div class="subscribe-form">
+                            <input type="email" name="your-email" value="" size="40" class="contact-input-email"
+                                   placeholder="Enter please your e-mail">
+                        </div>
+                        <div class="subscribe-btn">
+                            <button type="submit" title="Subscribe" class="contact-subcribe-btn"
+                                    data-i18n="subcribe-btn"><span>Subcribe</span></button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+<script src="assets/js/simply-nav.js"></script>
+<script src="assets/js/main.js"></script>
+<script src="assets/js/slick.min.js"></script>
+<script src="resources/js/script.js"></script>
+<script src="https://unpkg.com/i18next/i18next.js"></script>
+<script src="https://unpkg.com/i18next-xhr-backend/i18nextXHRBackend.js"></script>
+<script src="https://unpkg.com/i18next-browser-languagedetector/i18nextBrowserLanguageDetector.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-i18next/1.2.0/jquery-i18next.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,235 @@
+@media only screen and (max-width:1200px) {
+    .nav-wrapper>.nav.nav-header {
+        padding: 0;
+    }
+    .subscribe-form input,
+    .subscribe-btn button {
+        height: 35px !important;
+        line-height: 35px !important;
+        padding: 0 5px !important;
+    }
+    .subscribe-btn button {}
+    .contact-subcribe-btn span {
+        display: none;
+    }
+    .site-footer {
+        padding: 30px 0;
+    }
+    .blogspot-card__h2 {
+        font-size: 1.6rem !important;
+    }
+    .blogspot-card__text {
+        font-size: 15px;
+    }
+    .btn,
+    a.btn {
+        width: 20px;
+    }
+}
+
+@media only screen and (max-width:1023px) {
+    body {
+        font-size: 90%;
+    }
+}
+
+@media only screen and (max-width: 980px) {
+    header {
+        padding: 20px 0px;
+    }
+    #logo {
+        padding: 0px;
+    }
+    input[type=checkbox] {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+        background: none;
+    }
+    input[type=checkbox]:focus {
+        background: none;
+    }
+    label {
+        float: right;
+        padding: 8px 0px;
+        display: inline-block;
+        cursor: pointer;
+    }
+    input[type=checkbox]:checked~nav {
+        display: block;
+    }
+}
+
+@media only screen and (max-width:800px) {
+    .nav-list.col-6 {
+        width: 0;
+    }
+    .nav-header form {
+        right: 40px;
+        top: 16px;
+    }
+    .footer-distributed {
+        font: bold 14px sans-serif;
+        padding: 30px;
+        text-align: center;
+    }
+    .nav-list-footer .item a {
+        border-bottom: 2px solid transparent;
+        background: transparent;
+        color: #fff;
+    }
+    .nav-list-footer .item {
+        display: initial;
+        margin: 0 5px
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .btn--en{
+        margin-right: 30px !important;
+    }
+    .nav-list-footer .item {
+        margin-top: 30px;
+        display: list-item;
+    }
+    .contact-subcribe-btn span {
+        display: block;
+    }
+    .footer-right {
+        margin: 0;
+    }
+    .footer-left .logo-link {
+        margin: 0 auto;
+    }
+    .contact-heading__title {
+        margin: 15px 40px;
+    }
+    .subscribe-form input,
+    .subscribe-btn button {
+        height: 50px !important;
+        line-height: 50px !important;
+        padding: 0 15px !important;
+    }
+    .site-footer {
+        display: flex;
+        flex-flow: column;
+        padding: 0;
+    }
+    .footer-left {
+        order: 3;
+    }
+    .footer-center {
+        order: 2;
+    }
+    .footer-right {
+        order: 1;
+    }
+    .btn-en {
+        margin-right: 30px;
+    }
+    body {
+        font-size: 16px;
+    }
+    section {
+        padding: 30px 0;
+    }
+    .blogspot-card__h2 {
+        font-size: 180% !important;
+        padding: 25px 0px;
+    }
+    h1 span {
+        display: block;
+    }
+    h2 {
+        font-size: 150%;
+    }
+    body {
+        overflow: -moz-scrollbars-vertical;
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-center,
+    .footer-distributed .footer-right {
+        display: block;
+        width: 100%;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    .footer-distributed .footer-center i {
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width:480px) {
+
+    section {
+        padding: 25px 0;
+        max-width: 90%;
+    }
+    h1 {
+        font-size: 20px;
+        padding: 20px 0px;
+    }
+    label {
+        padding: 5px 0px;
+    }
+    #logo {
+        font-size: 20px;
+    }
+
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33333%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+    position: relative;
+    display: table;
+}
