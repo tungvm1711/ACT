@@ -166,6 +166,10 @@
     header .header-left{
         width: 50%;
     }
+    .blogspot-title {
+        margin: 90px 0 0 0;
+        padding-bottom: 0;
+    }
 }
 
 @media only screen and (max-width:480px) {
@@ -192,9 +196,6 @@
     }
     .btn--en {
         margin-right: 40px !important;
-    }
-    .blogspot-title {
-        margin-top: 70px;
     }
     header .header-left .header-left__search{
         right: 60px;
