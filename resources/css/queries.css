@@ -86,7 +86,7 @@
 
 @media only screen and (max-width:767px) {
     .btn--en{
-        margin-right: 30px !important;
+        margin-right: 45px !important;
     }
     .nav-list-footer .item {
         margin-top: 30px;
@@ -163,6 +163,9 @@
     .footer-distributed .footer-center i {
         margin-left: 0;
     }
+    header .header-left{
+        width: 50%;
+    }
 }
 
 @media only screen and (max-width:480px) {
@@ -181,7 +184,21 @@
     #logo {
         font-size: 20px;
     }
+}
 
+@media only screen and (max-width: 400px) {
+    .nav-wrapper>.nav>.toggle-nav{
+        right: 25px !important;
+    }
+    .btn--en {
+        margin-right: 40px !important;
+    }
+    .blogspot-title {
+        margin-top: 70px;
+    }
+    header .header-left .header-left__search{
+        right: 60px;
+    }
 }
 
 .col-1 {

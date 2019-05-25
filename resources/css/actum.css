@@ -198,6 +198,7 @@ section {
 .column {
   position: relative;
   display: inline-block;
+  float: left;
 }
 
 img {
@@ -279,6 +280,11 @@ header .header-right .header-right__logo--link {
   align-items: center;
   padding: 0 15px;
   overflow: hidden;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 header .header-right .header-right__logo--link > .logo {
   max-width: 100%;
@@ -456,8 +462,8 @@ header .header-left .header-left__search input {
 .footer-distributed .footer-left,
 .footer-distributed .footer-center,
 .footer-distributed .footer-right {
-  display: inline-block;
   vertical-align: middle;
+  display: table-cell;
 }
 .footer-distributed .footer-left .footer-left__logo--link {
   z-index: 2;
